@@ -17,7 +17,8 @@
   }
 </style>
 
-<svg width="1000", height="600"></svg>     <!-- changes map size -->
+<svg class="death_chart" width="1000", height="600"></svg>     <!-- changes map size -->
+<svg class="infected_chart" width="1000", height="600"></svg>     <!-- changes map size --> -->
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
@@ -26,7 +27,7 @@
 
 <script>
   // canvas area
-  var svg = d3.select("svg"),
+  var svg = d3.select(".death_chart"),
       width = +svg.attr("width"),
       height = +svg.attr("height");
 
@@ -67,7 +68,7 @@
 
   d3.queue()
     .defer(d3.json, "http://enjalot.github.io/wwsd/data/world/world-110m.geojson")
-    .defer(d3.csv, "covid-cases0.csv", function(d) { data.set(d.code, +d.total); })
+    .defer(d3.csv, "covid-cases.csv", function(d) { data.set(d.code, +d.total); })
     .await(ready);
 
     function ready(error, topo) {
@@ -85,5 +86,56 @@
                 })
               .attr("d", path);
     }
-//------------------------------------------------------------------------------
+
+  var data2 = d3.map();
+  var svg2 = d3.select(".infected_chart"),
+      width = +svg2.attr("width"),
+      height = +svg2.attr("height");
+
+  var colorScheme2 = d3.schemeReds[6];
+  colorScheme2.unshift("#ee");
+  var colorScale2 = d3.scaleThreshold()
+      .domain([0,1,200,1000,10000,100000,200000])
+      .range(colorScheme2);
+
+// legend
+  var g2 = svg2.append("g")
+      .attr("class", "legendThreshold")
+      .attr("transform", "translate(20,20)");
+  g2.append("text")
+    .attr("class", "caption")
+    .attr("x", 0)
+    .attr("y", -6)
+    .text("Deaths");
+  var labels2 = ['0','1-199','200-999','1000-9999','10,000-99,999','100,000-199,999','>200,000'];
+  var legend2 = d3.legendColor()
+      .labels(function (d){ return labels2[d.i]; })
+      .shapePadding(4)
+      .scale(colorScale2);
+  svg2.select(".legendThreshold")
+      .call(legend2);
+
+
+  d3.queue()
+    .defer(d3.json, "http://enjalot.github.io/wwsd/data/world/world-110m.geojson")
+    .defer(d3.csv, "covid-cases0.csv", function(d) { data2.set(d.code, +d.total); })
+    .await(ready2);
+
+    function ready2(error, topo) {
+      if(error) throw error;
+
+      //render map
+      svg2.append("g")
+          .attr("class", "countries")
+          .selectAll("path")
+          .data(topo.features)
+          .enter().append("path")
+              .attr("fill", function (d) {
+                  d.total = data2.get(d.id) || 0;
+                  return colorScale2(d.total);
+                })
+              .attr("d", path);
+    }
+
+
 </script>
