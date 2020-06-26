@@ -17,7 +17,7 @@
   }
 </style>
 
-<svg class="death_chart" width="1000", height="600"></svg>     <!-- changes map size -->
+<svg class="death_chart" width="750", height="450"></svg>     <!-- changes map size -->
 <svg class="infected_chart" width="1000", height="600"></svg>     <!-- changes map size --> -->
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -58,7 +58,7 @@
     .attr("x", 0)
     .attr("y", -6)
     .text("Infected");
-  var labels = ['0','1-199','200-999','1000-9999','10,000-99,999','10,0000-199,999','>200,000'];
+  var labels = ['0','1-199','200-999','1000-9999','10,000-99,999','100,000-199,999','>200,000'];
   var legend = d3.legendColor()
       .labels(function (d){ return labels[d.i]; })
       .shapePadding(4)
