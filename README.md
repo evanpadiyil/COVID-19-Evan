@@ -19,4 +19,4 @@ Mayank Malik
 Articles that helped throughout the code
 
 ### License
-Click here to see the License associated with this code repository
+[Click here](https://github.com/evanpadiyil/COVID-19-Evan/blob/master/LICENSE) to see the License associated with this code repository
