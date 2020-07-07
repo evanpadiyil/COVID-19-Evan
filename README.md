@@ -19,4 +19,4 @@ Mayank Malik
 Articles that helped throughout the code
 
 ### License
-Linked to the MIT License
+Click here to see the License associated with this code repository
