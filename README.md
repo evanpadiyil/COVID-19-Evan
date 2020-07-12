@@ -15,8 +15,8 @@ In the repository, there are multiple files. The LICENSE holds the MIT License t
 Mayank Malik - My mentor throughout this project
 
 ### References
-(Project and Learning Resources)
 [Setting up AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-set-up.html)
+
 [Configuring AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
 
 ### License
