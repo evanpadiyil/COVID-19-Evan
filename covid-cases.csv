@@ -1,123 +1,123 @@
-name,total,,code
-Albania,3038,,ALB
-Algeria,16404,,DZA
-Antigua And Barbuda,68,,ATG
-Argentina,77815,,ARG
-Armenia,29285,,ARM
-Australia,8586,,AUS
-Austria,18326,,AUT
-Azerbaijan,20837,,AZE
-Bangladesh,165618,,BGD
-Belarus,63804,,BLR
-Belgium,62058,,BEL
-Belize,30,,BLZ
-Bermuda,146,,BMU
-"Bolivia, Plurinational State Of",39297,,BOL
-Bosnia And Herzegovina,5393,,BIH
-Botswana,314,,BWA
-Brazil,1603055,,BRA
-Bulgaria,5914,,BGR
-Burundi,191,,BDI
-Cambodia,141,,KHM
-Cameroon,14524,,CMR
-Canada,105536,,CAN
-Chile,298557,,CHL
-China,85345,,CHN
-Colombia,117110,,COL
-Costa Rica,4996,,CRI
-Croatia,3220,,HRV
-Cuba,2380,,CUB
-Czechia,12566,,CZE
-Denmark,12878,,DNK
-Dominican Republic,38128,,DOM
-Ecuador,62380,,ECU
-Egypt,76222,,EGY
-El Salvador,8027,,SLV
-Ethiopia,6666,,ETH
-Fiji,19,,FJI
-Finland,7257,,FIN
-France,159568,,FRA
-Georgia,958,,GEO
-Germany,196544,,DEU
-Ghana,20085,,GHA
-Greece,3562,,GRC
-Guatemala,23248,,GTM
-Guyana,273,,GUY
-Haiti,6333,,HTI
-Honduras,23943,,HND
-Hong Kong,1300,,HKG
-Hungary,4189,,HUN
-India,719665,,IND
-Indonesia,64958,,IDN
-Iraq,62275,,IRQ
-Ireland,25531,,IRL
-Israel,30055,,ISR
-Italy,241819,,ITA
-Jamaica,732,,JAM
-Japan,19981,,JPN
-Jordan,1167,,JOR
-Kazakhstan,49683,,KAZ
-Kenya,8067,,KEN
-"Korea, Republic Of",13181,,KOR
-Kyrgyzstan,8141,,KGZ
-Latvia,1127,,LVA
-Lebanon,1885,,LBN
-Liberia,891,,LBR
-Libya,1046,,LBY
-Malawi,1818,,MWI
-Malaysia,8668,,MYS
-Mexico,256848,,MEX
-Mongolia,220,,MNG
-Morocco,14379,,MAR
-Mozambique,1012,,MOZ
-Myanmar,316,,MMR
-Nepal,15964,,NPL
-Netherlands,26,,NLD
-New Zealand,1186,,NZL
-Nicaragua,2182,,NIC
-Nigeria,29286,,NGA
-Norway,8930,,NOR
-Pakistan,234509,,PAK
-"Palestine, State Of",4786,,PSE
-Panama,38149,,PAN
-Paraguay,2456,,PRY
-Peru,302718,,PER
-Philippines,46333,,PHL
-Poland,36155,,POL
-Portugal,44129,,PRT
-Puerto Rico,8585,,PRI
-Romania,29223,,ROU
-Russian Federation,694230,,RUS
-Rwanda,1113,,RWA
-Réunion,550,,REU
-Saudi Arabia,213716,,SAU
-Senegal,7478,,SEN
-Serbia,16420,,SRB
-Sierra Leone,1457,,SLE
-Singapore,44983,,SGP
-Slovakia,1765,,SVK
-Somalia,3006,,SOM
-South Africa,205721,,ZAF
-South Sudan,2098,,SSD
-Spain,251789,,ESP
-Sri Lanka,2078,,LKA
-Sudan,9894,,SDN
-Sweden,73061,,SWE
-Switzerland,32230,,CHE
-Taiwan,449,,TWN
-"Tanzania, United Republic Of",509,,TZA
-Thailand,3195,,THA
-Timor-Leste,24,,TLS
-Togo,680,,TGO
-Trinidad And Tobago,133,,TTO
-Tunisia,1199,,TUN
-Turkey,206844,,TUR
-Uganda,953,,UGA
-Ukraine,49607,,UKR
-United Arab Emirates,52068,,ARE
-United Kingdom,285772,,GBR
-United States,2877238,,USA
-Uruguay,956,,URY
-"Venezuela, Bolivarian Republic Of",7169,,VEN
-Viet Nam,369,,VNM
-Zimbabwe,734,,ZWE
+name,total,code
+Albania,3038,ALB
+Algeria,16404,DZA
+Antigua And Barbuda,68,ATG
+Argentina,77815,ARG
+Armenia,29285,ARM
+Australia,8586,AUS
+Austria,18326,AUT
+Azerbaijan,20837,AZE
+Bangladesh,165618,BGD
+Belarus,63804,BLR
+Belgium,62058,BEL
+Belize,30,BLZ
+Bermuda,146,BMU
+"Bolivia, Plurinational State Of",39297,BOL
+Bosnia And Herzegovina,5393,BIH
+Botswana,314,BWA
+Brazil,1603055,BRA
+Bulgaria,5914,BGR
+Burundi,191,BDI
+Cambodia,141,KHM
+Cameroon,14524,CMR
+Canada,105536,CAN
+Chile,298557,CHL
+China,85345,CHN
+Colombia,117110,COL
+Costa Rica,4996,CRI
+Croatia,3220,HRV
+Cuba,2380,CUB
+Czechia,12566,CZE
+Denmark,12878,DNK
+Dominican Republic,38128,DOM
+Ecuador,62380,ECU
+Egypt,76222,EGY
+El Salvador,8027,SLV
+Ethiopia,6666,ETH
+Fiji,19,FJI
+Finland,7257,FIN
+France,159568,FRA
+Georgia,958,GEO
+Germany,196544,DEU
+Ghana,20085,GHA
+Greece,3562,GRC
+Guatemala,23248,GTM
+Guyana,273,GUY
+Haiti,6333,HTI
+Honduras,23943,HND
+Hong Kong,1300,HKG
+Hungary,4189,HUN
+India,719665,IND
+Indonesia,64958,IDN
+Iraq,62275,IRQ
+Ireland,25531,IRL
+Israel,30055,ISR
+Italy,241819,ITA
+Jamaica,732,JAM
+Japan,19981,JPN
+Jordan,1167,JOR
+Kazakhstan,49683,KAZ
+Kenya,8067,KEN
+"Korea, Republic Of",13181,KOR
+Kyrgyzstan,8141,KGZ
+Latvia,1127,LVA
+Lebanon,1885,LBN
+Liberia,891,LBR
+Libya,1046,LBY
+Malawi,1818,MWI
+Malaysia,8668,MYS
+Mexico,256848,MEX
+Mongolia,220,MNG
+Morocco,14379,MAR
+Mozambique,1012,MOZ
+Myanmar,316,MMR
+Nepal,15964,NPL
+Netherlands,26,NLD
+New Zealand,1186,NZL
+Nicaragua,2182,NIC
+Nigeria,29286,NGA
+Norway,8930,NOR
+Pakistan,234509,PAK
+"Palestine, State Of",4786,PSE
+Panama,38149,PAN
+Paraguay,2456,PRY
+Peru,302718,PER
+Philippines,46333,PHL
+Poland,36155,POL
+Portugal,44129,PRT
+Puerto Rico,8585,PRI
+Romania,29223,ROU
+Russian Federation,694230,RUS
+Rwanda,1113,RWA
+Réunion,550,REU
+Saudi Arabia,213716,SAU
+Senegal,7478,SEN
+Serbia,16420,SRB
+Sierra Leone,1457,SLE
+Singapore,44983,SGP
+Slovakia,1765,SVK
+Somalia,3006,SOM
+South Africa,205721,ZAF
+South Sudan,2098,SSD
+Spain,251789,ESP
+Sri Lanka,2078,LKA
+Sudan,9894,SDN
+Sweden,73061,SWE
+Switzerland,32230,CHE
+Taiwan,449,TWN
+"Tanzania, United Republic Of",509,TZA
+Thailand,3195,THA
+Timor-Leste,24,TLS
+Togo,680,TGO
+Trinidad And Tobago,133,TTO
+Tunisia,1199,TUN
+Turkey,206844,TUR
+Uganda,953,UGA
+Ukraine,49607,UKR
+United Arab Emirates,52068,ARE
+United Kingdom,285772,GBR
+United States,2877238,USA
+Uruguay,956,URY
+"Venezuela, Bolivarian Republic Of",7169,VEN
+Viet Nam,369,VNM
+Zimbabwe,734,ZWE
