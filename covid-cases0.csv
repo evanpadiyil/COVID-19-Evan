@@ -12,7 +12,7 @@ Belarus,436,BLR
 Belgium,9776,BEL
 Belize,2,BLZ
 Bermuda,9,BMU
-"Bolivia, Plurinational State Of",1476,BOL
+Plurinational State Of Bolivia,1476,BOL
 Bosnia And Herzegovina,206,BIH
 Botswana,1,BWA
 Brazil,65487,BRA
@@ -58,7 +58,7 @@ Japan,980,JPN
 Jordan,10,JOR
 Kazakhstan,264,KAZ
 Kenya,167,KEN
-"Korea, Republic Of",285,KOR
+Republic Of Korea,285,KOR
 Kyrgyzstan,112,KGZ
 Latvia,30,LVA
 Lebanon,36,LBN
@@ -78,7 +78,7 @@ Nicaragua,83,NIC
 Nigeria,669,NGA
 Norway,251,NOR
 Pakistan,4922,PAK
-"Palestine, State Of",22,PSE
+State Of Palestine,22,PSE
 Panama,770,PAN
 Paraguay,20,PRY
 Peru,10772,PER
@@ -105,7 +105,7 @@ Sudan,622,SDN
 Sweden,5447,SWE
 Switzerland,1685,CHE
 Taiwan,7,TWN
-"Tanzania, United Republic Of",21,TZA
+United Republic Of Tanzania,21,TZA
 Thailand,58,THA
 Timor-Leste,0,TLS
 Togo,15,TGO
@@ -118,6 +118,6 @@ United Arab Emirates,326,ARE
 United Kingdom,44391,GBR
 United States,129963,USA
 Uruguay,29,URY
-"Venezuela, Bolivarian Republic Of",68,VEN
+Bolivarian Republic Of Venezuela,68,VEN
 Viet Nam,0,VNM
 Zimbabwe,9,ZWE
